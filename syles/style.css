@@ -144,6 +144,9 @@ body{
     .header_menu{
         justify-content: center;
     }
+    .header_menu_link{
+        margin: auto;
+    }
     .presentacion{
 
         flex-direction: column-reverse;
@@ -151,5 +154,11 @@ body{
     }
     .presentacion_contenido{
         width: auto;
+    }
+ }
+ @media (max-width: 550px){
+    .header_menu{
+        display: flex;
+        flex-direction: column;
     }
  }
